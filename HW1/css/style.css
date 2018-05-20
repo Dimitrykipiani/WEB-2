@@ -1,0 +1,53 @@
+body{
+	min-width: 1355px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14pt;
+	line-height: 24px;
+}
+.container{
+	width: 70%;
+	margin: auto;
+}
+article{
+	width: 47%;
+	margin: 1%;
+	display: inline-block;
+}
+.rightdiv{
+	width: 47%;
+	margin: 1%;
+	display: inline-block;
+}
+img{
+	width: 100%;
+}
+.rightdiv, article{
+	vertical-align: top;
+}
+h1{
+	font-size: 18pt;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom:30px; 
+}
+h4{
+	font-weight: 700;
+	margin-top: 14px;
+}
+h5{
+	font-weight: 600;
+}
+.rightdiv p{
+	margin-bottom: 12px;
+}
+a{
+	display: block;
+	width: 30%;
+	text-decoration: none;
+	text-align: center;
+	margin: 20px auto 60px auto;
+	border: 3px solid black;
+	font-weight: 600;
+	color: black;
+	padding: 10px 30px;
+}
