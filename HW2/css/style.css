@@ -6,12 +6,13 @@
 body{
 	font-family: 'Roboto', sans-serif;
 	background-color: #b2b2b2;
+	font-size: 1vw;
 }
 
 nav{
 	position: absolute;
 	width: 100%;
-	top: 20px;
+	top: 3%;
 }
 
 nav div{
@@ -37,14 +38,14 @@ li{
 
 button{
 	font-family: 'Montserrat', sans-serif;
-	width: 70%;
-	line-height: 45px;
+	width: 80%;
+	line-height: 3em;
 	border: 1px solid white;
 	background-color: white;
 	color: black;
 	border-radius: 3%;
-	margin-top: 30px;
-	font-size: 15px;
+	margin-top: 10%;
+	font-size: 1em;
 	font-weight: 700;
 }
 
@@ -54,7 +55,7 @@ button{
 
 .brands{
 	float: left;
-	padding-left: 44px;
+	padding-left: 4%;
 	letter-spacing: 2px;
 }
 
@@ -78,27 +79,58 @@ button{
 .header{
 	width: 50%;
 	position: absolute;
-	left: 240px;
-	top: 100px;
+	left: 15%;
+	top: 20%;
 	color: white;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 36px;
+	font-size: 2.8em;
 }
 
 .subheader{
-	width: 50%;
+	width: 40%;
 	float: right;
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 18px;
+	font-size: 0.4em;
 	font-weight: 500;
-	padding-right: 140px;
+	padding-right: 20%;
 	color: #b2b2b2;
 }
+
+.fa-align-justify
+{
+	position: absolute;
+	color: white;
+	font-size: 16px;
+	top: 3%;
+	right: 3%;
+}
+
 
 #grad{
 	position: absolute;
 	top: 0;
 }
+#burger{
+	display: none;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    ul{
+    	display: none;
+    }
+    #burger{
+    	display: block;
+    }
+    .logo{
+    	display: none;
+    }
+    .brands{
+    	font-size: 10px;
+    }
+}
+
 
 
 
