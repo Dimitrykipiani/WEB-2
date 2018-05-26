@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	text-decoration: none;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: #b2b2b2;
+}
+
+nav{
+	position: absolute;
+	width: 100%;
+	top: 20px;
+}
+
+nav div{
+	display: inline-block;
+}
+
+ul{
+	padding-right: 30px;
+}
+
+.cover{
+	position: relative;
+}
+
+img{
+	width: 100%;
+}
+
+li{
+	display: inline-block;
+	margin: 0 14px;
+}
+
+button{
+	font-family: 'Montserrat', sans-serif;
+	width: 70%;
+	line-height: 45px;
+	border: 1px solid white;
+	background-color: white;
+	color: black;
+	border-radius: 3%;
+	margin-top: 30px;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.icons{
+	float: right;
+}
+
+.brands{
+	float: left;
+	padding-left: 44px;
+	letter-spacing: 2px;
+}
+
+.brands a{
+	color: #b2b2b2;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+
+}
+
+.logo{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+}
+
+.header{
+	width: 50%;
+	position: absolute;
+	left: 240px;
+	top: 100px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36px;
+}
+
+.subheader{
+	width: 50%;
+	float: right;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	padding-right: 140px;
+	color: #b2b2b2;
+}
+
+#grad{
+	position: absolute;
+	top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
