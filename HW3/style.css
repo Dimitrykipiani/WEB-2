@@ -1,0 +1,218 @@
+*{
+	margin: 0;
+	text-decoration: none;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1vw;
+}
+.container{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 5%;
+}
+
+.header{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	padding-right: 1%;
+	padding-left: 1%;
+	margin: 1% 0;
+}
+.header h1, .dropdown{
+	display: inline-block;
+}
+
+
+.header h1{
+	float: left;
+	color: #a6afba;
+	font-size: 3vw;
+}
+
+
+.dropdown{
+	color: #a6afba;
+	position: absolute;
+	float: right;
+	right: 0;
+	top: 30%;
+	padding-right: 3%;
+	font-size: 1vw;
+}
+
+select{
+	border: none;
+	outline: none;
+	font-size: 1vw;
+	font-weight: 700;
+	color: #28bd9b;
+}
+option{
+	border: none;
+	outline: none;
+}
+
+article{
+	color: #323e4b;
+	width: 23%;
+	margin: 1%;
+	height: 30vw;
+	background-color: #ffffff;
+	box-shadow: 0 0px 10px rgba(0,0,0,0.1);
+	float: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.special{
+	width: 48%;
+	position: relative;
+}
+.special img{
+	height: 100%;
+	position: absolute;
+}
+.specialinfo{
+	width: 70%;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	color: white;
+	margin:5%;
+	font-size: 1.1em;
+}
+
+
+h2{
+	clear: both;
+	font-size: 1.5vw;
+
+}
+.raiting{
+	display: inline-block;
+	margin: 3% 0;	
+	margin-right: 20px;
+}
+.highlited{
+	border-radius: 3%;
+	line-height: 200%;
+	padding:0 2%;
+	font-size: 1vw;
+	font-weight: 700;
+	background-color: #ffce54;
+	color: white;
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 1% 0;
+}
+span{
+	
+}
+img{
+	width: 100%;
+	height: 52%;
+	object-fit: cover;
+}
+.description{
+	margin: 5%;
+	overflow: hidden;
+	font-weight: 500;
+}
+.description p
+{
+	color: #a4a8ad;
+}
+.fa-star{
+	color: #a4a8ad;
+	opacity: 0.5;
+}
+.checked{
+	color: #28bd9b;
+	opacity: 1;
+}
+.views{
+	color: #a4a8ad;
+}
+
+@media only screen and (max-width: 800px) {
+   article{
+   	width: 46%;
+   	margin: 2%;
+   	height: 60vw;
+   }
+   .special{
+   	width: 96%;
+   	margin: 2%;
+   	font-size: 2vw;
+   }
+   body{
+   	font-size: 2vw;
+   }
+   h1{
+   	font-size: 4vw;
+   }
+   .header h1{
+   	font-size: 4vw;
+   }
+   h2{
+   	font-size: 3vw;
+   }
+   .dropdown{
+   	font-size: 1.5vw;
+   }
+   select{
+   	font-size: 1.5vw;
+   }
+   .highlited{
+     font-size: 2vw;
+   }
+
+}
+
+@media only screen and (max-width: 400px) {
+   article{
+   	width: 92%;
+   	margin: 4%;
+   	height: 100vw;
+   }
+   .special{
+   	width: 96%;
+   	margin: 2%;
+   	font-size: 4vw;
+   	height: 120vw;
+   }
+   body{
+   	font-size: 4vw;
+   }
+   h1{
+   	font-size: 8vw;
+   }
+    .header h1{
+   	font-size: 6vw;
+   }
+   h2{
+   	font-size: 6vw;
+   }
+   .dropdown{
+   	font-size: 3vw;
+   }
+   select{
+   	font-size: 3vw;
+   }
+   .highlited{
+     font-size: 4vw;
+   }
+
+}
+
+
+
+
+
+
